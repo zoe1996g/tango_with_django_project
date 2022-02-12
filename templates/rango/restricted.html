@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{% extends 'rango/base.html' %}
+{% load staticfiles %}
+
+<html lang="en">
+    {% block title_block %}
+        Restricted Page
+    {% endblock %}
+
+    {% block body_block %}
+    <a href="{% url 'rango:index' %}">Index</a>
+    {% endblock %}
+</html>
