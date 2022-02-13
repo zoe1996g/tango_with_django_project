@@ -73,7 +73,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'tango_with_django_project.wsgi.application'
 
-
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
